@@ -17,6 +17,7 @@
 @keyframes imagerotation {
     from {
         height: 30rem;
+        width: 30rem;
         position: center;
         opacity: 0;
         border-width: 32.85px;
@@ -28,7 +29,7 @@
     }
     to {
         height: 7rem;
-        position: cover;
+        position: 7rem;
         opacity: 1;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);

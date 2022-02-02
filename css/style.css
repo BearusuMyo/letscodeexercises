@@ -6,8 +6,10 @@ html{
 }
 
 
-img.profile{
-    width: auto;
+div.profile{
+    background: url("https://bearusumyo.github.io/letscodeexercises/assets/hilichurl.jpg") no-repeat;
+    background-size: contain;
+    width: 7rem;
     height: 7rem;
     border-radius: 50%;
     border-style: solid;
@@ -18,9 +20,12 @@ img.profile{
     border-top-color: #4285F4;
     margin-right: 1rem;
     animation: imagerotation 2.7s;
-
+    display: inline-block;
 }
 
+div.profile:hover{
+    background-image: url('https://bearusumyo.github.io/letscodeexercises/assets/img.jfif') no-repeat;
+}
 
 div.lineup{
     display: flex;
