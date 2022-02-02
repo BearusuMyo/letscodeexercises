@@ -23,8 +23,9 @@ div.profile{
     display: inline-block;
 }
 
-div.profile:hover{
-    background-image: url('https://bearusumyo.github.io/letscodeexercises/assets/img.jfif') no-repeat;
+.profile:hover{
+    background-image: url('https://bearusumyo.github.io/letscodeexercises/assets/image.jpg') no-repeat;
+    background-size: contain;
 }
 
 div.lineup{
