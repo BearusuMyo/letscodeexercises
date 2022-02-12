@@ -13,9 +13,13 @@ div.containerjelamp{
 
 }
 a{
-    background-image: url();
-    size: 200px;
+    background-image: url(https://bearusumyo.github.io/letscodeexercises/Ex04/assets/outline_tungsten_black_48dp.png);
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #132e4c;
 }
+
 div.ball{
     display: flex;
     background-color: #e6e1e6;
@@ -26,3 +30,4 @@ div.ball{
     justify-content: center;
     align-items: center;  
 }
+
