@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+html{
+    font-family: 'Google Sans', sans-serif;
+    background: #132e4c;
+    color: #e6e1e6;
+}
+
+div.containerjelamp{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: width/2;
+
+}
+a{
+    background-image: url();
+    size: 200px;
+}
+div.ball{
+    display: flex;
+    background-color: #e6e1e6;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    transform: rotate(180deg);
+    justify-content: center;
+    align-items: center;  
+}
